@@ -34,7 +34,7 @@ function connect() {
 function initRTC(phoneNumber, password, ticket, port) {
     rtc.PHONE_NUMBER = phoneNumber;
     rtc.PASSWORD = password;
-    rtc.SERVER_ADDRESS = "ws://localhost:" + port;
+    rtc.SERVER_ADDRESS = "ws://47.97.21.103:" + port;
     rtc.TICKET = ticket;
 	rtc.PORT = port;
     rtc.connect();
